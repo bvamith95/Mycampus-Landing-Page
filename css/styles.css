@@ -62,7 +62,7 @@ body {
       border-radius: 0 0 0 55px;
       min-height: 49.7em;
       min-width: 60%;
-      background-image: url(/img/intro-img.png);
+      background-image: url(img/intro-img.png);
       background-size: cover; }
       body .header__img .circle-yellow-small {
         position: absolute;
@@ -139,31 +139,31 @@ body {
           background-color: #38B3E0; }
         body .perks .perks__tiles__container .perk--2 {
           background-color: #1F3B85;
-          background-image: url(/img/perk_2.png);
+          background-image: url(img/perk_2.png);
           background-size: cover; }
         body .perks .perks__tiles__container .perk--3 {
           background-color: #93CDDB;
-          background-image: url(/img/perk_3.png);
+          background-image: url(img/perk_3.png);
           background-size: cover; }
         body .perks .perks__tiles__container .perk--4 {
           background-color: #DF3928;
-          background-image: url(/img/perk_4.png);
+          background-image: url(img/perk_4.png);
           background-size: cover; }
         body .perks .perks__tiles__container .perk--5 {
           background-color: #E9B5AF;
-          background-image: url(/img/perk_5.png);
+          background-image: url(img/perk_5.png);
           background-size: cover; }
         body .perks .perks__tiles__container .perk--6 {
           background-color: #FE9FC6;
-          background-image: url(/img/perk_6.png);
+          background-image: url(img/perk_6.png);
           background-size: cover; }
         body .perks .perks__tiles__container .perk--7 {
           background-color: #149D4B;
-          background-image: url(/img/perk_7.png);
+          background-image: url(img/perk_7.png);
           background-size: cover; }
         body .perks .perks__tiles__container .perk--8 {
           background-color: #E9A61A;
-          background-image: url(/img/perk_8.png);
+          background-image: url(img/perk_8.png);
           background-size: cover; }
   body .banner__container {
     margin: 5% auto;
@@ -182,7 +182,7 @@ body {
         font-size: 45px;
         font-weight: 500; }
       body .banner__container .banner__heading__container .banner__heading::after {
-        content: url("/img/live_red_dot.svg");
+        content: url("img/live_red_dot.svg");
         width: 17px;
         height: 17px;
         position: relative;
@@ -203,10 +203,10 @@ body {
         font-weight: 600;
         color: #FFDA28; }
   body .banner--1 {
-    background-image: url(/img/banner_background_1.png);
+    background-image: url(img/banner_background_1.png);
     padding: 45px 65px; }
   body .banner--2 {
-    background-image: url(/img/banner_background_2.png);
+    background-image: url(img/banner_background_2.png);
     display: flex;
     align-items: flex-end; }
     body .banner--2 .banner__body__container {
@@ -259,11 +259,11 @@ body {
               font-weight: 800;
               border-radius: 5px; }
         body .positions__body__container .position .panda_1 {
-          background-image: url(/img/panda_1.png); }
+          background-image: url(img/panda_1.png); }
         body .positions__body__container .position .panda_2 {
-          background-image: url(/img/panda_2.png); }
+          background-image: url(img/panda_2.png); }
         body .positions__body__container .position .panda_3 {
-          background-image: url(/img/panda_3.png); }
+          background-image: url(img/panda_3.png); }
         body .positions__body__container .position .position__body__container {
           background-color: #000;
           padding: 10px 10px 0;
@@ -313,13 +313,13 @@ body {
         width: 284px;
         height: 393px; }
       body .mentors__body__container .mentor--1 {
-        background-image: url(/img/salim_merchant.png);
+        background-image: url(img/salim_merchant.png);
         background-size: cover; }
       body .mentors__body__container .mentor--2 {
-        background-image: url(/img/nikhil_chinapa.png);
+        background-image: url(img/nikhil_chinapa.png);
         background-size: cover; }
       body .mentors__body__container .mentor--3 {
-        background-image: url(/img/behram_siganporia.png);
+        background-image: url(img/behram_siganporia.png);
         background-size: cover; }
       body .mentors__body__container .mentor__name__container div {
         width: fit-content;
@@ -477,7 +477,7 @@ body {
         border-radius: 0 0 20px 20px;
         min-height: 16.5em;
         width: 390px;
-        background-image: url(/img/intro-img.png);
+        background-image: url(img/intro-img.png);
         background-size: cover; }
         body .header-mobile__info__img .circle-yellow-small {
           position: absolute;
@@ -571,7 +571,7 @@ body {
           font-size: 13px;
           font-weight: 500; }
         body .banner__container .banner__heading__container .banner__heading::after {
-          content: url("/img/live_red_dot_mobile.svg");
+          content: url("img/live_red_dot_mobile.svg");
           position: relative;
           top: -5px;
           left: 2px; }
@@ -583,7 +583,7 @@ body {
     body .banner--1 {
       padding: 10px; }
     body .banner--2 {
-      background-image: url(/img/banner_background_2.png);
+      background-image: url(img/banner_background_2.png);
       display: flex;
       align-items: center;
       justify-content: space-around; }
