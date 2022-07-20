@@ -208,9 +208,11 @@ body {
   body .banner--2 {
     background-image: url("../img/banner_background_2.png");
     display: flex;
-    align-items: flex-end; }
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
     body .banner--2 .banner__body__container {
-      align-items: flex-start;
+      align-items: center;
       padding: 90px 120px; }
       body .banner--2 .banner__body__container .sub-heading {
         font-size: 32px;

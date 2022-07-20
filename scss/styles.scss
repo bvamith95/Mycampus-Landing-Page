@@ -287,6 +287,7 @@ body{
         .banner__body__container{
             display: flex;
             flex-direction: column;
+       
             justify-content: center;
             text-align: center;
             p{
@@ -311,10 +312,12 @@ body{
     &--2{
         background-image: url("../img/banner_background_2.png");
         display: flex;
-        align-items: flex-end;
+        align-items: center;
+        justify-content: center; 
+        text-align: center;
 
         .banner__body__container{
-            align-items: flex-start;
+            align-items: center;
             padding: 90px 120px;
 
             .sub-heading{
@@ -324,7 +327,7 @@ body{
 
             .sub-heading-alt{
                 font-size: 42px;
-                font-weight: 800;
+                font-weight: 800; 
             }
             
         }
