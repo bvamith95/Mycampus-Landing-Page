@@ -44,20 +44,6 @@ body {
           body .header__info__body .btn-red:hover {
             cursor: pointer;
             filter: brightness(90%); }
-        body .header__info__body .circle-yellow-big {
-          position: relative;
-          width: 9em;
-          height: 9em;
-          left: -12%;
-          top: -310px;
-          z-index: -10; }
-        body .header__info__body .circle-red-big {
-          position: relative;
-          width: 9em;
-          height: 9em;
-          left: 30%;
-          top: -220px;
-          z-index: -10; }
     body .header__img {
       border-radius: 0 0 0 55px;
       min-height: 49.7em;
@@ -522,20 +508,6 @@ body {
           body .header-mobile__info__body .btn-red:hover {
             cursor: pointer;
             filter: brightness(90%); }
-        body .header-mobile__info__body .circle-yellow-big {
-          position: absolute;
-          width: 60.48px;
-          height: 61.32px;
-          left: 40px;
-          top: 384px;
-          z-index: -10; }
-        body .header-mobile__info__body .circle-red-big {
-          z-index: -10;
-          position: absolute;
-          width: 61.74px;
-          height: 61.74px;
-          left: 245.32px;
-          top: 453px; }
     body .intro .intro__heading__container .border-left,
     body .intro .intro__heading__container .border-right {
       width: 1.5625em; }
