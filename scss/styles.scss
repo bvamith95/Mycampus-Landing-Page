@@ -20,7 +20,7 @@ body{
 .header{
     display: flex;
     &__info{
-        width: 40%;
+        min-width: 40%;
         &__logo-box{
             padding: 10%;
         }
@@ -85,7 +85,7 @@ body{
 
     &__img{
         border-radius: 0 0 0 55px;
-        min-height: 49.7em;
+        height: 49.7em;
         min-width: 60%;
         background-image: url("../img/intro-img.png");
         background-size: cover;
@@ -171,11 +171,12 @@ body{
 
     .perks__tiles__container{
         max-width: 1600px;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        margin-bottom: 30px;
+        margin: 0 1.5rem 3rem;
         .perk{
             width: 340px;
             height: 340px;
@@ -246,7 +247,7 @@ body{
 .banner{
     
     &__container{
-        margin:5% auto;
+        margin:5rem 2rem;
         height: 370px;
         background-size: cover;
         max-width: 1700px;
@@ -291,7 +292,7 @@ body{
             justify-content: center;
             text-align: center;
             p{
-                font-size: 28px;
+                font-size: 1.5rem;
                 line-height: 1.8;
                 color: white;
 
@@ -344,13 +345,18 @@ body{
         font-size: 42px;
         text-align: center;
         max-width: 1400px;
-        margin: 10px 0;
+        width: 100%;
+        margin: 1rem 1.5rem;
     }
     
     &__body__container{
         display: flex; 
         flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
         max-width: 1600px;
+        width: 100%;
         margin: 3%;
         padding: 0 5%;
      
@@ -470,15 +476,17 @@ body{
 
    &__body__container{
        display: flex;
+       width: 100%;
+       flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        margin-bottom: 50px;
+        
         .mentor{
             display: flex;
-            margin: 0 -20px;
+            margin: 1.5rem 2rem;
             
             &__img__container{
-                width: 284px;
+                width:100%;
                 height: 393px;
             }
 
@@ -604,6 +612,9 @@ body{
         &__social{
             grid-row: 2/3;
             grid-column: 3/5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             &__container{
                 display: flex;
                 align-items: center;
@@ -649,7 +660,7 @@ body{
 
 
     body{
-        max-width: 1440px;
+        max-width: 100%;
     .header{
         &__info{
             &__body{
@@ -661,7 +672,7 @@ body{
         }
     
         &__img{
-            min-height: 45em;
+           height: 45em;
         }
     }
     
@@ -751,17 +762,55 @@ body{
 
 }
 
-
-@media screen and (max-width: 390px){
+@media screen and (max-width:768px) {
+    
     body{
-        max-width: 390px;
+
+       .banner__container .banner__body__container p {
+           font-size: 1rem ;
+       }
+    .header{
+        &__info{
+            &__logo{
+                    width: 15rem;     
+            }
+
+                h2{
+                    font-size: 2em;
+                }
+            }
+        }
+        .cta{
+            &__header{
+                h2{
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+
+    body .footer__grid__heading{
+
+        h2{
+            font-size: 1.5rem;
+        }
+    }
+
+
+    
+}
+
+
+@media screen and (max-width: 425px){
+    body{
+        max-width: 100vw;
 
         .header{
            display: none;
         }
      
     .header-mobile{
-        display: flex;
+        display: flex; 
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
@@ -780,7 +829,7 @@ body{
             &__img{
                 border-radius: 0 0 20px 20px;
                 min-height: 16.5em;
-                width: 390px;
+                width: 100vw;
                 background-image: url("../img/intro-img.png");
                 background-size: cover;
         
@@ -903,7 +952,8 @@ body{
         }
     
         .perks__tiles__container{
-            max-width: 390px;
+            max-width: 100%;
+            padding: 0 2rem;
  
             .perk{
                 width: 145px;
@@ -925,10 +975,10 @@ body{
     .banner{
         
         &__container{
-            margin:30px 10px;
+            margin:2rem 1.5rem;
             height: 151px;
-      
-
+            max-width: 100%;
+            
             
             
             
@@ -1012,9 +1062,10 @@ body{
         &__body__container{
             display: flex; 
             flex-direction: column;
-            max-width: 390px;
+            max-width: 100%;
+            padding: 0 2rem;
             margin: 0 0 20px;
-            padding: 0;
+            
          
             .position{
                 margin: 20px 5px;
@@ -1102,7 +1153,7 @@ body{
                 &__name__container{
 
                     div{
-                        font-size: 30px;
+                        font-size: 1.5rem;
 
                         margin-left: -30%;
                         
@@ -1142,6 +1193,8 @@ body{
         &__grid{
     
             display: grid;
+            justify-content: center;
+            align-items: center;
             grid-template-columns: repeat(4,1fr);
             grid-template-rows: repeat(4, 1fr);
             grid-gap: 20px;
@@ -1173,6 +1226,7 @@ body{
             &__social{
                 grid-row: 3/4;
                 grid-column: 1/-1;
+
                 
                 &__container{
                     justify-content: flex-start;
@@ -1208,4 +1262,19 @@ body{
         }
     }
     }  
+}
+
+@media screen and (max-width:320px) {
+    
+    body .positions__body__container .position{
+        width: 280px;
+    }
+
+    body .positions__body__container{
+        padding: 0;
+    }
+
+    body .perks .perks__tiles__container{
+        padding: 0;
+    }
 }
