@@ -325,7 +325,8 @@ body {
         line-height: 1.2;
         color: #E91831;
         background-color: #fff;
-        margin-left: -40%; }
+        margin-left: -40%;
+        text-transform: capitalize; }
   body .cta__header {
     text-align: center;
     display: flex;
