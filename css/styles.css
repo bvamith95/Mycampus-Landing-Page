@@ -305,8 +305,8 @@ body {
       display: flex;
       margin: 1.5rem 2rem; }
       body .mentors__body__container .mentor__img__container {
-        width: 100%;
-        height: 393px; }
+        width: 260px;
+        height: 370px; }
       body .mentors__body__container .mentor--1 {
         background-image: url("../img/salim_merchant.png");
         background-size: cover; }
@@ -451,9 +451,6 @@ body {
       align-items: center;
       justify-content: center;
       margin: 0 auto 50px; }
-      body .mentors__body__container .mentor__img__container {
-        width: 260px;
-        height: 370px; }
     body .footer__grid {
       grid-gap: 0px; } }
 
